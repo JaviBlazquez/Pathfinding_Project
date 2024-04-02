@@ -1,1 +1,2 @@
 # Pathfinding_Project
+En este juego deberas esquivar a los enemigos mientras vas recogiendo monedas, existen dos objetos especiales que te permitiran cruzar diferentes zonas del mapa, el limite del juego son 2 minutos,aunque se puede configurar a gusto del usuario, y el jugador constara de 4 puntos de vida que se verán reflejados en la barra en la esquina inferior izquierda, los enemigos y determinadas zonas del mapa dañarán al jugador, si la vida llega a 0 aparecerá la pantalla de GameOver, y se podrá iniciar el juego de nuevo.
