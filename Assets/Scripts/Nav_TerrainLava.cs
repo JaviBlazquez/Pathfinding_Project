@@ -20,7 +20,7 @@ public class Nav_TerrainLava : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Enter");
+        //Debug.Log("Enter");
         if (other.TryGetComponent<NavMeshAgent>(out NavMeshAgent agent))
         {
             //Compruebo que lo que ha entrado es un agente
@@ -33,6 +33,6 @@ public class Nav_TerrainLava : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log("exit");
+        //Debug.Log("exit");
     }
 }

@@ -120,6 +120,7 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Plugins/Mono.Data.Sqlite.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -359,6 +360,9 @@
 "Assets/Mini Simple Characters Skeleton Demo/Readme/Scripts/Readme.cs"
 "Assets/Scripts/BigEnemyFollowPlayer.cs"
 "Assets/Scripts/CameraController.cs"
+"Assets/Scripts/Data.cs"
+"Assets/Scripts/DataFromDB.cs"
+"Assets/Scripts/FileManager.cs"
 "Assets/Scripts/FollowPlayerOnClick.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GameOverManager.cs"

@@ -19,7 +19,7 @@ public class FollowPlayerOnClick : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            Debug.Log("Click del raton");
+            //Debug.Log("Click del raton");
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 

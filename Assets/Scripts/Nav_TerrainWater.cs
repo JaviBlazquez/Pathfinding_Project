@@ -15,7 +15,7 @@ public class Nav_TerrainWater : MonoBehaviour
     // Update is called once per frame
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Enter");
+        //Debug.Log("Enter");
         if (other.TryGetComponent<NavMeshAgent>(out NavMeshAgent agent))
         {
             //Compruebo que lo que ha entrado es un agente
@@ -28,7 +28,7 @@ public class Nav_TerrainWater : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log("exit");
+        //Debug.Log("exit");
         if (other.TryGetComponent<NavMeshAgent>(out NavMeshAgent agent) && GameManager.Instance.WaterWalkers == false)
         {
             //Compruebo que lo que ha salido es un agente
